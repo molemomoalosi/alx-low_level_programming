@@ -9,6 +9,7 @@
 /**
  * main - finds last number and how big it is
  * @n: the number to be used
+ * @lastDigit: the last digit of n
  *
  * Finds if n is larger or smaller than five
  *
@@ -26,15 +27,15 @@ int lastDigit;
 
 	if (lastDigit > 5)
 	{
-		printf("The Last digit of %i is %i and is greater than 5\n", n, lastDigit);
+		printf("Last digit of %i is %i and is greater than 5\n", n, lastDigit);
 	}
 	else if (lastDigit == 0)
 	{
-		printf("The Last digit of %i is %i and is 0\n", n, lastDigit);
+		printf("Last digit of %i is %i and is 0\n", n, lastDigit);
 	}
 	else if (lastDigit < 5 && lastDigit != 0)
 	{
-		printf("The Last digit of %i is %i and is less than 6 and not 0\n", n, lastDigit);
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, lastDigit);
 	}
 	return (0);
 
