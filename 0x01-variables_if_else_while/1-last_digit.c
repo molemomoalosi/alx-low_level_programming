@@ -8,8 +8,8 @@
 
 /**
  * main - finds last number and how big it is
- * @n: the number to be used
- * @lastDigit: the last digit of n
+ * @ n- the number to be used
+ * @lastDigit - the last digit of n
  *
  * Finds if n is larger or smaller than five
  *
@@ -19,23 +19,23 @@
 int main(void)
 {
 int n;
-int lastDigit;
+int Digit;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	lastDigit = n % 10;
+	Digit = n % 10;
 
-	if (lastDigit > 5)
+	if (Digit > 5)
 	{
-		printf("Last digit of %i is %i and is greater than 5\n", n, lastDigit);
+		printf("Last digit of %i is %i and is greater than 5\n", n, Digit);
 	}
-	else if (lastDigit == 0)
+	else if (Digit == 0)
 	{
-		printf("Last digit of %i is %i and is 0\n", n, lastDigit);
+		printf("Last digit of %i is %i and is 0\n", n, Digit);
 	}
-	else if (lastDigit < 5 && lastDigit != 0)
+	else if (Digit < 5 && Digit != 0)
 	{
-		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, lastDigit);
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, Digit);
 	}
 	return (0);
 
