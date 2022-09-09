@@ -8,7 +8,7 @@
 
 /**
  * main - prints alphatic in order
- * @letter - stores alphabet
+ * @alpha - stores alphabet
  * Prints alphabet in order, in lowercase
  *
  * Return: the alphabet in lowercase letters
@@ -16,15 +16,15 @@
 
 int main(void)
 {
-	char letter;
+	char alpha;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		putchar(letter);
+		putchar(alpha);
 	}
-	for (letter = 'A'; letter <= 'Z'; upper++)
+	for (alpha = 'A'; alpha <= 'Z'; alpha++)
 	{
-	putchar(upper);
+	putchar(alpha);
 	}
 	putchar('\n');
 	return (0);
