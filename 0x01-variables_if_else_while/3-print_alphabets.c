@@ -21,11 +21,13 @@ int main(void)
 	char upper;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
-	for (upper = 'A'; letter <= 'Z'; upper++)
 	{
 		putchar(letter);
-		putchar(upper);
 	}
+		for (upper = 'A'; letter <= 'Z'; upper++)
+		{
+			putchar(upper);
+		}
 	putchar('\n');
 	return (0);
 }
