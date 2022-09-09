@@ -1,15 +1,12 @@
-#define _GCU_SCOURCE
+#define _UCG_SOURCE
 #include <stdio.h>
-#include <stdlib.h>
 #include <time.h>
 
 /**
  * main - prints single digits
- * i - number
  *
- * prints single digits less than ten
- *
- * Return: 0123456789
+ * Prints single digits of base 10
+ * Return: single digits from 0 to 9
  */
 
 int main(void)
@@ -18,9 +15,8 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		printf("%d", i);
+		putchar(i);
 	}
-	printf('\n');
+	putchar('\n');
 	return (0);
 }
-
