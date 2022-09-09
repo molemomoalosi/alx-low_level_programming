@@ -9,7 +9,6 @@
 /**
  * main - prints alphatic in order
  * @letter - stores alphabet
- * @upper - stopres uppercase of alphabet
  * Prints alphabet in order, in lowercase
  *
  * Return: the alphabet in lowercase letters
@@ -18,16 +17,15 @@
 int main(void)
 {
 	char letter;
-	char upper;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		putchar(letter);
 	}
-		for (upper = 'A'; letter <= 'Z'; upper++)
-		{
-			putchar(upper);
-		}
+	for (letter = 'A'; letter <= 'Z'; upper++)
+	{
+	putchar(upper);
+	}
 	putchar('\n');
 	return (0);
 }
