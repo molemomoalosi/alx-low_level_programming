@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <main.h>
-#include <time.h>
+#include "main.h"
 
 /**
  * main - prints out putchar
@@ -8,7 +6,7 @@
  * Returns: 0
  */
 
-int main(void)
+void _putchar(void)
 {
 char print = "_putchar";
 	while (print)
