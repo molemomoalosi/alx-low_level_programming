@@ -5,14 +5,19 @@
 /**
  * main - prints out putchar
  *
- * This function prints out putchar
- *
  * Returns: 0
  */
 
 int main(void)
 {
-	printf("_putchar\n");
+char print = "_putchar";
+	while (print)
+	{
+		_putchar(print)
+		print++
+	}
+
+	printf("\n");
 	return (0);
 
 }
