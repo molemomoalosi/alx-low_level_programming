@@ -6,16 +6,17 @@
  * Returns: 0
  */
 
-void _putchar(void)
+int main()
 {
-char print = "_putchar";
-	while (print)
+	char str [] = "_putchar";
+	int i = 0;
+
+	while (str[i] != '\0')
 	{
-		_putchar(print)
-		print++
+		_putchar(str[i]);
+		i++;
 	}
 
-	printf("\n");
+	_putchar('\n');
 	return (0);
-
 }
