@@ -4,6 +4,7 @@
 /**
  * main - prints alphabet
  *
+ * Description: prints alphabet in lowercase
  * Returns: 0
  */
 

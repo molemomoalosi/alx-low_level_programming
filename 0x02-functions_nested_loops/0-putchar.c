@@ -2,13 +2,12 @@
 
 /**
  * main - prints out putchar
- *
- * Returns: 0
+ * Return: 0
  */
 
-int main()
+int main(void)
 {
-	char str [] = "_putchar";
+	char str[] = "_putchar";
 	int i = 0;
 
 	while (str[i] != '\0')
