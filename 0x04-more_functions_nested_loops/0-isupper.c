@@ -3,23 +3,22 @@
 #include <ctype.h>
 
 /**
- * main - checks whether letter is uppercase
+ * _isupper - checks whether letter is uppercase
+ * @c: stores character to be tested
  *
  * Return: 1 if upper, else 0
  */
 
 int _isupper(int c)
 {
-	if (_isupper(c) == 1)
+	if (isupper(c))
 	{
-		putchar(c);
-		return (0);
+		return (1);
 	}
 	else
 	{
-		putchar(c);
-		return (1);
+		return (0);
 	}
 
-	return (_isupper(c));
+	/*return (_isupper(c));*/
 }
