@@ -6,7 +6,7 @@
  * _isdigit - checks for digit
  * @c: stores variable
  *
- * Returns: 1 if digit, else 0
+ * Return: 1 if digit, else 0
  */
 
 int _isdigit(int c)
