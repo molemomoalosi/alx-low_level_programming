@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-/** 
+/**
  * print_sign - prints sign based on number
  * @n: number to be tested
  *
