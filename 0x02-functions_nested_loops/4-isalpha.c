@@ -3,16 +3,18 @@
 
 /**
  * _isalpha - checks if char is alphabet
- *
+ * @c: charector to be tested
  * Return: 0
  */
 
 int _isalpha(int c)
 {
-	for (c = 'a'; c <= 'z'; c++)
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
 		return (1);
 	}
-
-	return (0);
+	else
+	{
+		return (0);
+	}
 }

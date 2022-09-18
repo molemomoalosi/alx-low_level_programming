@@ -3,7 +3,6 @@
 
 /**
  * _islower - tests whether char is lower
- * @r: tests is lower
  * @c: character tested
  *
  * Return: 1 or 0
@@ -11,9 +10,9 @@
 
 int _islower(int c)
 {
-	if (_islower(c))
+	if ((c >= 'a') && (c <= 'z'))
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
