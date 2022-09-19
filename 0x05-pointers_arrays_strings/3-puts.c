@@ -3,6 +3,7 @@
 
 /**
  * _puts - prints string
+ * @str: string to be printed
  *
  * Return: 0
  */
@@ -10,5 +11,5 @@
 void _puts(char *str)
 {
 	puts(str);
-	putchar('\n');
+
 }

@@ -2,6 +2,7 @@
 
 /**
  * reset_to_98 - resests to 98
+ * @n: variable
  * Return: 0
  */
 
