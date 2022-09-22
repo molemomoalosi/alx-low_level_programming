@@ -1,6 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * *_strcat - concetinates 2 strings
+ * @dest: string 1
+ * @src: 2nd string
+ *
+ * Return: 0
+ */
+
 char *_strcat(char *dest, char *src)
 {
 	int i, j;
