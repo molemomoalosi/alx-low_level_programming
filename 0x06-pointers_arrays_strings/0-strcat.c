@@ -1,12 +1,12 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
  * *_strcat - concetinates 2 strings
- * @dest: string 1
- * @src: 2nd string
+ * @dest: pointer to string
+ * @src: pointer to string
  *
- * Return: 0
+ * Return: value of dest
  */
 
 char *_strcat(char *dest, char *src)
@@ -21,10 +21,10 @@ char *_strcat(char *dest, char *src)
 		i++;
 	}
 
-	while (src[j] != '\0')
+	for (j = 0; src[j] != '\0'; j++)
+	/**while (src[j] != '\0')*/
 	{
 		dest[i] = src[j];
-		i++;
 		i++;
 	}
 
